@@ -149,7 +149,7 @@
 			return {
 				iframe: settings[data[0]].iframe,
 				id:     data[0],
-				height: data[1],
+				height: data[1] . "!important",
 				width:  data[2],
 				type:   data[3]
 			};
